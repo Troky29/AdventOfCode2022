@@ -10,7 +10,7 @@ def parse_input(input_lines: List[str]) -> Dict[int, List[int]]:
     elf_number = 0
     for line in input_lines:
 
-        if line == "\n":
+        if len(line) == 0:
             elf_number += 1
         else:
             elf_meals[elf_number].append(int(line))
