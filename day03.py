@@ -48,7 +48,6 @@ def get_missing_badges(rucksacks: List[List[str]]) -> List[str]:
 
 
 if __name__ == "__main__":
-    # puzzle_lines = TEST.split('\n')
     puzzle_part1_path = Path('day03_part1.txt')
     puzzle_lines = read_lines(puzzle_part1_path)
     puzzle_input = parse_input(puzzle_lines)
